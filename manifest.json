@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "BobRossThumbnails",
+    "version": "1.0.0",
+    "description": "A simple Chrome extension to test making Chrome extensions.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["Content.js"]
+        }
+    ],
+    "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+    }
+}
